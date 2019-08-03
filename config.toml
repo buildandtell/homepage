@@ -1,0 +1,29 @@
+languageCode = "en-us"
+title = "buildandtell"
+theme = "alageek2"
+author = "admin"
+baseurl = "/"
+canonifyurls = true
+copyright = "Copyright © 2018, builandtell; all rights reserved."
+paginate = 3
+
+[params]
+copyright = "© 2019 by builandtell"
+github_repo="https://github.com/buildandtell/homepage"
+copyrightUrl = "https://builandtell.xyz"
+faviconfile = "https://gokmengorgen.net/img/laughing-man-favicon.png"
+latestpostcount = 3
+logofile = "https://gokmengorgen.net/img/laughing-man.png"
+highlightjs = true
+
+[[menu.primary]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 10
+
+[[menu.primary]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 20
